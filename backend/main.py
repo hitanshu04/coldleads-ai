@@ -14,6 +14,7 @@ import time
 import random
 from dotenv import load_dotenv
 
+#Load env. variables
 load_dotenv()
 
 app = FastAPI(title="ColdLeads", description="AI Sales Agent")
